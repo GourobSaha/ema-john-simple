@@ -1,0 +1,36 @@
+.total-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 580px;
+    padding: 8px;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 10px;
+}
+.review-item img{
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.review-item{
+    display: flex;
+    align-items: center;
+}
+.review-item h5{
+    margin: 0;
+}
+.review-item h3 {
+    margin: 0;
+}
+.delete-icon{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 213, 213);
+}
+.delete-icon:hover {
+    background-color: rgb(249, 165, 165);
+    cursor: pointer;
+}
