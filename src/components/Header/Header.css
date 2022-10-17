@@ -16,3 +16,20 @@
 .headerNav a:hover{
     color: orange;
 }
+.user-email{
+    color: white;
+    margin-left: 36px;
+    font-size: 15px;
+}
+.btn-logout{
+    margin-left: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn-logout:hover {
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
