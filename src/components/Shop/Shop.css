@@ -11,3 +11,18 @@
 .cart-container{
     background-color: rgb(253, 191, 76);
 }
+.pagination{
+    margin: 50px auto;
+}
+.pagination .selected{
+    background-color: goldenrod;
+}
+.pagination button{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.pageOption{
+    width: 60px;
+    height: 30px;
+}

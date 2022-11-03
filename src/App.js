@@ -17,37 +17,34 @@ function App() {
     {
       path: '/',
       element: <Main></Main>,
-      children:[
+      children: [
         {
-          path:'/',
-          loader: () => {
-            return fetch('products.json')
-          },
+          path: '/',
           element: <Shop></Shop>
         },
         {
-          path:'/orders',
+          path: '/orders',
           loader: ProductsAndCartLoader,
           element: <Orders></Orders>
         },
         {
-          path:'/inventory',
+          path: '/inventory',
           element: <Inventory></Inventory>
         },
         {
-          path:'/shipping',
+          path: '/shipping',
           element: <PrivateRoute><Shipping></Shipping></PrivateRoute>
         },
         {
-          path:'/about',
+          path: '/about',
           element: <About></About>
         },
         {
-          path:'/login',
+          path: '/login',
           element: <Login></Login>
         },
         {
-          path:'/signup',
+          path: '/signup',
           element: <SignUp></SignUp>
         }
       ]
